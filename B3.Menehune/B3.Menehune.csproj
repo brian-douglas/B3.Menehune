@@ -4,8 +4,14 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>B3 Software</Company>
+    <Authors>Brian Douglas</Authors>
+    <Description>Simple chaos monkey style plugin to ASPNetCore.</Description>
+    <Copyright />
+    <PackageProjectUrl>https://github.com/brian-douglas/B3.Menehune</PackageProjectUrl>
+    <PackageIcon>B3-Logo-256.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\B3-Logo-256.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
