@@ -29,7 +29,7 @@ namespace B3.Menehune.Domain
 
             var matchedValue = (ServiceReturnStrategies) randInt;
 
-            return matchedValue == ServiceReturnStrategies.Random ? ServiceReturnStrategies.DefaultPassThrough : matchedValue;
+            return matchedValue == ServiceReturnStrategies.Random ? ServiceReturnStrategies.SleepingPassThrough : matchedValue;
         }
     }
 }

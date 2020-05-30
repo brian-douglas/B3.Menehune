@@ -2,7 +2,7 @@
 {
     public enum ServiceReturnStrategies
     {
-        DefaultPassThrough,
+        SleepingPassThrough,
         Return500Error,
         NeverReturn,
         Random
