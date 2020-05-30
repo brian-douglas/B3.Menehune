@@ -74,5 +74,6 @@ Or put the menehune back to sleep with:
 
 Sponsored by 
 
-[B3Software.net]: https://www.b3software.net/
+<img src="https://raw.githubusercontent.com/brian-douglas/B3.Menehune/master/B3-Logo-256.png" width="48" />
+https://www.b3software.net/
 
