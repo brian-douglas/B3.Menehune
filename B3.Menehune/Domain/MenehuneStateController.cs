@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace B3.Menehune.Domain
 {
+    [ApiExplorerSettings(IgnoreApi=true)]       //hide this route from OpenAPI/Swagger generators
     [Route("MenehuneState")]
     [ApiController]
     public class MenehuneStateController : ControllerBase
