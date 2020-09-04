@@ -43,7 +43,7 @@ Or put the menehune back to sleep with:
 
 1. add nuget package [B3.Menehune](https://www.nuget.org/packages/B3.Menehune/) to your ASPNetCore 2.2+ web project
 
-2. in Startup.cs, add the following to the Configure() method:
+2. in Startup.cs, add the following to the Configure() method, before use.Mvc() or similar middleware:
 
    `app.UseMenehune();`
 
@@ -72,8 +72,5 @@ Or put the menehune back to sleep with:
 
 
 
-Sponsored by 
-
 <img src="https://raw.githubusercontent.com/brian-douglas/B3.Menehune/master/B3-Logo-256.png" width="48" />
-https://www.b3software.net/
 
