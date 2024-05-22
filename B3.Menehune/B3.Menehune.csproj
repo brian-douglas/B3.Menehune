@@ -7,7 +7,7 @@
 		<IsPackable>true</IsPackable>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
-		<Version>0.0.3</Version>
+		<Version>0.8.0</Version>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Company>B3 Software</Company>
 		<Authors>Brian Douglas</Authors>
@@ -25,6 +25,9 @@
 		<None Include="..\LICENSE" Link="LICENSE">
 			<PackagePath></PackagePath>
 			<Pack>True</Pack>
+		</None>
+		<None Include="..\README.md" Link="README.md">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
 
