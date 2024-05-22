@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace B3.Menehune.Domain
+﻿namespace B3.Menehune.Domain
 {
     public class MenehuneState
     {

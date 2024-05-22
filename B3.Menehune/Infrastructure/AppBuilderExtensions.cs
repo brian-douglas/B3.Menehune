@@ -1,7 +1,4 @@
-﻿using System;
-using Microsoft.AspNetCore.Builder;
-
-namespace B3.Menehune.Infrastructure
+﻿namespace B3.Menehune.Infrastructure
 {
     public static class AppBuilderExtensions
     {

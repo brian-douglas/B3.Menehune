@@ -1,0 +1,6 @@
+@B3.MenehuneCore_HostAddress = http://localhost:5093
+
+GET {{B3.MenehuneCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
